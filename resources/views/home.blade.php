@@ -21,6 +21,8 @@
 		<th></th>
 		<th></th>
 	</tr>
+
+	
 	@foreach($loanApplications as $loanApp)
 	<tr>
 		<td>{{$loanApp->employmentstatus}}</td>
